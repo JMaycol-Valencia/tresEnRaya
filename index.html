@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tres en raya</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+  <body>
+    <h1>Tres en raya</h1>
+    <div id="tablero">
+        <div class="fila">
+          <div class="casilla" onclick="casillaClick(event)" id="0"></div>
+          <div class="casilla" onclick="casillaClick(event)" id="1"></div>
+          <div class="casilla" onclick="casillaClick(event)" id="2"></div>
+        </div>
+        <div class="fila">
+          <div class="casilla" onclick="casillaClick(event)" id="3"></div>
+          <div class="casilla" onclick="casillaClick(event)" id="4"></div>
+          <div class="casilla" onclick="casillaClick(event)" id="5"></div>
+        </div>
+        <div class="fila">
+          <div class="casilla" onclick="casillaClick(event)" id="6"></div>
+          <div class="casilla" onclick="casillaClick(event)" id="7"></div>
+          <div class="casilla" onclick="casillaClick(event)" id="8"></div>
+        </div>
+    </div>
+    <div class="reset-button">
+        <button onclick="resetGame()">Reiniciar juego</button>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
